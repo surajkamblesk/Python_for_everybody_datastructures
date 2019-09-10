@@ -1,0 +1,6 @@
+fname = input("enter the filename: \n");
+fh = open(fname)
+for line in fh:
+    final = line.rstrip().upper()
+    print(final)
+
